@@ -69,8 +69,16 @@ Before you begin, ensure you have met the following requirements:
    dotnet run
 
 2. Open your web browser and navigate to http://localhost:5087 to access the E-commerce.
+3 Visit the website and create an account or log in if you already have one.
+4 Browse the product catalog, add items to your shopping cart, and proceed to checkout.
+5 Complete the checkout process, including payment if configured. Use this test card to simulate a payment (4242 4242 4242 4242), the other data could be random.
+6 Click pay, and yei you made an order.
 
-- Visit the website and create an account or log in if you already have one.
-- Browse the product catalog, add items to your shopping cart, and proceed to checkout.
-- Complete the checkout process, including payment if configured. Use this test card to simulate a payment (4242 4242 4242 4242), the other data could be random.
-- Click pay, and yei you made an order.
+## short feedback
+- was it easy to complete the task using AI?:
+In some cases, using the AI was really useful to help generate code and configuration, but sometimes the steps that the AI gave me weren't complete, what I mean is that chatgpt forgot to tell me some previous configuration or packages that I needed to have previously installed.
+- How long did task take you to complete?
+around 40 hours
+- Was the code ready to run after generation? What did you have to change to make it usable?
+Most of the time, the code provided wasn't really functional, for example, the unit tests I had to change a lot to make them work.
+- Which challenges did you face during completion of the task?
