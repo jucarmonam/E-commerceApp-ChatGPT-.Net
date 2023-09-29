@@ -69,9 +69,13 @@ Before you begin, ensure you have met the following requirements:
    dotnet run
 
 2. Open your web browser and navigate to http://localhost:5087 to access the E-commerce.
+
 3. Visit the website and create an account or log in if you already have one.
+
 4. Browse the product catalog, add items to your shopping cart, and proceed to checkout.
+
 5. Complete the checkout process, including payment if configured. Use this test card to simulate a payment (4242 4242 4242 4242) or see this page for more info https://stripe.com/docs/checkout/quickstart, the other data could be random.
+
 6. Click pay, and yei you made an order.
 
 ## short feedback
