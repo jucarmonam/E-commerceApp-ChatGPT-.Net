@@ -1,0 +1,36 @@
+﻿@page
+@model E_commerce.Pages.CartModel
+@{
+}
+
+<h2>Your Shopping Cart</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CartItems)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.Quantity</td>
+                <td>@(item.Price * item.Quantity)</td>
+                <td><a asp-page-handler="RemoveFromCart" asp-route-id="@item.ProductId">Remove</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>Total: @Model.TotalPrice</div>
+
+<form method="post" asp-page-handler="CheckoutStripe">
+    <button type="submit" class="btn btn-primary">Proceed to Checkout</button>
+</form>
