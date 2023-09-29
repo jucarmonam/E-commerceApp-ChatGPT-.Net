@@ -1,0 +1,83 @@
+# .gitignore for ASP.NET Core
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific directories
+bin/
+obj/
+
+# Visual Studio files
+.vscode/
+.vs/
+*_i.c
+*_p.c
+*.suo
+*.sln.docstates
+
+# Visual Studio 2019 config folder
+.idea/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.userosscache
+
+# User-specific directories
+bin/
+obj/
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio for Mac
+.idea/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.userosscache
+
+# User-specific directories
+bin/
+obj/
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio for Mac
+.idea/
+
+# Rider
+.idea/
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.suo
+*.user
+*.suo
+*.userosscache
+
+# User-specific directories
+bin/
+obj/
+
+# .NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio for Mac
+.idea/
+
